@@ -1,4 +1,4 @@
-# AI Speech AutoLihgt System
+# AI Gesture AutoLihgt System
 
 ## Repo Structure
 
@@ -13,7 +13,7 @@
 
 ## 01 Introduction
 
-This is an automated lighting control system that operates automatically and is powered by Arduino and Artificial Intelligence. It utilizes AI technology to recognize speech and automate lighting operations. The system uses the Firmata protocol to enable Python to communicate with Arduino, thereby turning on LEDs with the help of speech recognition technology.
+This is an automated lighting control system that operates automatically and is powered by Arduino and Artificial Intelligence. The system uses AI technology to detect hand gestures and automate lighting operations. It utilizes the Firmata protocol to enable Python to communicate with Arduino, allowing the system to turn on LEDs.
 
 ![Circuit Diagram](docs/media/0-banner-image.png)
 
@@ -30,8 +30,8 @@ This is an automated lighting control system that operates automatically and is 
 
 - Python 3.8.5 (Recommended)
 - Arduino IDE (Framework)
-- SpeechRecognition
-- PyAudio
+- OpenCV
+- MediaPipe
 - PyFirmata
 
 ## 03 Setup
@@ -58,7 +58,7 @@ To upload Firmata, open Arduino IDE and choose the correct COM port and **File -
 
 ### 3.3 Setup Software
 
-We will now install the necessary tools to gain access to the Arduino Board. This project utilizes essential libraries, including Speech Recognition and PyFirmata. We need to install all the required dependencies on the development computer.
+We will now install the necessary tools to gain access to the Arduino Board. This project utilizes essential libraries, including MediaPipe and PyFirmata. We need to install all the required dependencies on the development computer.
 
 - **Step 01:** Install Python
 
@@ -69,7 +69,7 @@ We will now install the necessary tools to gain access to the Arduino Board. Thi
 - **Step 02:** Navigate to the specified location in CMD/Terminal.
 
   ```
-  ai-speech-autolight-system/docs/requirements.txt
+  ai-gesture-autolight-system/docs/requirements.txt
   ```
 
 - **Step 03:** Execute the given command to install all dependencies.
@@ -83,7 +83,7 @@ We will now install the necessary tools to gain access to the Arduino Board. Thi
 - **Source Directory:**
 
   ```
-  ai-speech-autolight-system\source\main.py
+  ai-gesture-autolight-system\source\main.py
   ```
 
 ### 4.1 Setps to run
@@ -102,7 +102,6 @@ We will now install the necessary tools to gain access to the Arduino Board. Thi
 
 ### 4.2 Output
 
-[4-demo-video.webm](https://github.com/gunarakulangunaretnam/ai-speech-autolight-system/assets/45822509/9ef5b3f7-ffd7-4c2d-92b6-1e402a64fe6d)
 
 
 ## Social Links
