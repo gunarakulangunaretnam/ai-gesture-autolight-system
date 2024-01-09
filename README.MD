@@ -103,7 +103,6 @@ We will now install the necessary tools to gain access to the Arduino Board. Thi
 ### 4.2 Output
 
 
-
 ## Social Links
 
 - [Linkedin Profile](https://www.linkedin.com/in/gunarakulangunaretnam)
