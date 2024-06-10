@@ -1,4 +1,4 @@
-# AI GESTURE AUTOLIHGT SYSTEM
+# AI Gesture AutoLihgt System
 
 ## Repo Structure
 
@@ -104,7 +104,7 @@ We will now install the necessary tools to gain access to the Arduino Board. Thi
 
 [4-demo-video.webm](https://github.com/gunarakulangunaretnam/ai-gesture-autolight-system/assets/45822509/f6cc8c83-8e73-4ddd-b1c7-ea6e21f696ff)
 
-# CONTACT
+# Contact
 
 ### Website: 
 
